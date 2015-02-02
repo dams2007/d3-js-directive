@@ -1,0 +1,15 @@
+{
+  "name": "D3 Directive",
+  "version": "0.0.1",
+  "description": "AngularJS Directive to create Charts with the library D3.js",
+  "main": "Gruntfile.js",
+  "author": {
+    "name": "Damien Bigot",
+    "email": "damien.bigot@gmail.com",
+    "twitter": "eckografik"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-shell": "^1.1.1"
+  }
+}

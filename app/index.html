@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Directive - D3Chart</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body ng-controller="homeController as homeCtrl">
+  <div class="mainContainer">
+    <div class="customFont global-graph" label="Global" d3chart diameter="350" value="70" width="400" height="400" radius=".67"></div>
+    <div id="containerD3Chart" class="containerGraph">
+      <div class="customFont graph" label="Detail 1" d3chart diameter="170" value="80" width="170" height="210" radius=".67"></div>
+      <div class="customFont graph" label="Detail 2" d3chart diameter="170" value="65" width="170" height="210" radius=".67"></div>
+    </div>
+  </div>
+
+  <script src="js/lib/angular.js"></script>
+  <script src="js/lib/d3.min.js"></script>
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
